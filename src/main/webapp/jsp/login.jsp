@@ -11,8 +11,8 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">	
-		<link rel="stylesheet" href="assets/css/common.css">
-		<link rel="stylesheet" href="assets/css/auth.css">
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/common.css">
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/auth.css">
 	</head>
 	<body class="auth-page">
 		<div class="login-container">
